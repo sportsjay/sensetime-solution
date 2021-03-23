@@ -10,7 +10,7 @@ import Activity from "./components/activity";
 // an api on your own or use existing free service provided by others from online,
 // you may choose free server to achieve this.
 
-export default function TaskThree(props) {
+export default function TaskThree() {
   const classes = useStyles();
 
   const [data, setData] = useState([]);
